@@ -4,14 +4,14 @@
 
     <groupId>com.zafar</groupId>
     <artifactId>myTajikistan-android</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>pom</packaging>
     <name>myTajikistan - Android applications</name>
 
     <parent>
         <groupId>myTajikistan</groupId>
         <artifactId>myTajikistan</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
 
     <modules>
