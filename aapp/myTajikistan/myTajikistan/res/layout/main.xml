@@ -4,9 +4,68 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
+
+    <TabHost
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/tabHost"
+            android:layout_gravity="center">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                >
+
+            <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+            </TabWidget>
+
+            <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                <LinearLayout
+                        android:id="@+id/Food"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal"
+                        android:baselineAligned="true"
+                        android:focusable="false"
+                        android:focusableInTouchMode="true">
+
+                    <ListView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/listView"
+                            android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:id="@+id/Map"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+                </LinearLayout>
+
+                <LinearLayout
+                        android:id="@+id/Hotels"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                    <ListView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/HotelList"
+                            android:layout_gravity="center_horizontal|top"
+                            android:headerDividersEnabled="false"/>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
 </LinearLayout>
