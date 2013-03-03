@@ -4,7 +4,7 @@
 
     <groupId>myTajikistan</groupId>
     <artifactId>myTajikistan</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>myTajikistan-Parent</name>
     <url>http://mytajikistan.tj</url>
@@ -39,8 +39,8 @@
 
     <scm>
         <url>https://github.com/zafarella/myTajikistan</url>
-        <connection>scm:git:git@github.com:zafarella/myTajikistan.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:zafarella/myTajikistan.git</developerConnection>
+        <connection>scm:git:git@github.com/zafarella/myTajikistan.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/zafarella/myTajikistan.git</developerConnection>
     </scm>
 
 
