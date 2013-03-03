@@ -5,12 +5,12 @@
     <parent>
         <groupId>com.zafar</groupId>
         <artifactId>myTajikistan-android</artifactId>
-        <version>1.0</version>
+        <version>1.1-SNAPSHOT</version>
     </parent>
 
     <groupId>com.zafar</groupId>
     <artifactId>myTajikistan-app</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>apk</packaging>
     <name>myTajikistan - Android Application</name>
 
