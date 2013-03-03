@@ -4,7 +4,7 @@
 
     <groupId>myTajikistan</groupId>
     <artifactId>myTajikistan</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>myTajikistan-Parent</name>
     <url>http://mytajikistan.tj</url>
