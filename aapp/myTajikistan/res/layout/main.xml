@@ -28,10 +28,10 @@
             <FrameLayout
                     android:id="@android:id/tabcontent"
                     android:layout_width="fill_parent"
-                    android:layout_height="fill_parent">
+                    android:layout_height="match_parent">
 
                 <LinearLayout
-                        android:id="@+id/Food"
+                        android:id="@+id/Explore"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:orientation="horizontal"
@@ -43,7 +43,8 @@
                             android:layout_width="fill_parent"
                             android:layout_height="fill_parent"
                             android:id="@+id/listView"
-                            android:layout_gravity="center"/>
+                            android:layout_gravity="center"
+                            android:textFilterEnabled="true"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -53,16 +54,18 @@
                 </LinearLayout>
 
                 <LinearLayout
-                        android:id="@+id/Hotels"
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent">
+                        android:id="@+id/About"
+                        android:layout_width="314dp"
+                        android:layout_height="344dp"
+                        android:orientation="vertical">
 
-                    <ListView
+                    <TextView
                             android:layout_width="fill_parent"
                             android:layout_height="fill_parent"
-                            android:id="@+id/HotelList"
+                            android:text="About"
+                            android:id="@+id/textView"
                             android:layout_gravity="center_horizontal|top"
-                            android:headerDividersEnabled="false"/>
+                            android:singleLine="false"/>
                 </LinearLayout>
             </FrameLayout>
         </LinearLayout>

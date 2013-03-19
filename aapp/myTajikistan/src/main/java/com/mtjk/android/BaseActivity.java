@@ -1,4 +1,4 @@
-/**
+ /**
  * Copyright
  *
  */
@@ -7,8 +7,9 @@ package com.mtjk.android;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
+import com.actionbarsherlock.app.SherlockActivity;
 
-public class HelloAndroidActivity extends Activity {
+ public class BaseActivity extends SherlockActivity {
 
     private static String TAG = "myTajikistan";
 
